@@ -1,0 +1,10 @@
+<svg className="pulse-svg" width="90px" height="90px" viewBox="0 0 50 50" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<circle className="circle first-circle" fill="#fff" cx="25" cy="25" r="25">
+	</circle>
+	<circle className="circle second-circle" fill="#fff" cx="25" cy="25" r="25">
+	</circle>
+	<circle className="circle third-circle" fill="#fff" cx="25" cy="25" r="25">
+	</circle>
+	<circle className="circle" fill="#fff" cx="25" cy="25" r="25">
+	</circle>
+</svg>
