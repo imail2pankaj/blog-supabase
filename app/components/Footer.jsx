@@ -17,10 +17,10 @@ const Footer = () => {
                 labore dolore magna aliqua enim ad minim veniam quis nostrud exercitation ullamaboris nisi ut aliquip.exea
                 commodo consequat. Duis aute irure dolor in reprehenderit.</p>
               <ul className="list-inline social-icons">
-                <li className="list-inline-item"><a href="http://facebook.com/themefisher" target="_blank"><i className="fa"><FontAwesomeIcon icon={faFacebook} className='text-white' /></i></a></li>
-                <li className="list-inline-item"><a href="http://twitter.com/themefisher" target="_blank"><i className="fa fa-twitter"><FontAwesomeIcon icon={faTwitter} className='text-white' /></i></a></li>
-                <li className="list-inline-item"><a href="https://www.youtube.com/channel/UCx9qVW8VF0LmTi4OF2F8YdA/featured" target="_blank"><i className="fa fa-youtube"><FontAwesomeIcon icon={faYoutube} className='text-white' /></i></a></li>
-                <li className="list-inline-item"><a href="http://github.com/themefisher" target="_blank"><i className="fa fa-github"><FontAwesomeIcon icon={faGithub} className='text-white' /></i></a></li>
+                <li className="list-inline-item"><a href="http://facebook.com/themefisher" target="_blank" aria-label="Facebook" rel="noopener"><i className="fa"><FontAwesomeIcon icon={faFacebook} className='text-white' /></i></a></li>
+                <li className="list-inline-item"><a href="http://twitter.com/themefisher" target="_blank" aria-label="Twitter" rel="noopener"><i className="fa fa-twitter"><FontAwesomeIcon icon={faTwitter} className='text-white' /></i></a></li>
+                <li className="list-inline-item"><a href="https://www.youtube.com/channel/UCx9qVW8VF0LmTi4OF2F8YdA/featured" aria-label="Youtube" target="_blank" rel="noopener"><i className="fa fa-youtube"><FontAwesomeIcon icon={faYoutube} className='text-white' /></i></a></li>
+                <li className="list-inline-item"><a href="http://github.com/themefisher" target="_blank" aria-label="Github" rel="noopener"><i className="fa fa-github"><FontAwesomeIcon icon={faGithub} className='text-white' /></i></a></li>
               </ul>
             </div>
             <div className="col-md-3 col-sm-6">
@@ -50,7 +50,7 @@ const Footer = () => {
             <div className="col-md-6 text-center text-md-left mb-3 mb-md-0">
               <p className="mb-0 text-light">Copyright &copy;
                 2024
-                a theme by <a href="https://themefisher.com">themefisher.com</a></p>
+                a theme by <a href="https://themefisher.com" className='text-white'>themefisher.com</a></p>
             </div>
             <div className="col-md-6 text-md-right text-center">
               <ul className="list-inline">

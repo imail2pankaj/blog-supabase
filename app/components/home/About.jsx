@@ -18,7 +18,7 @@ const About = () => {
               eiusmod tempor
               incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam quis nostrud
               exercitation ullamco laboris nisi aliquip commodo consequat. duis aute.</p>
-            <Link href="/about" className="btn btn-outline-primary" data-aos="fade-left" data-aos-delay="500">read more</Link>
+            <Link href="/about" className="btn btn-outline-primary" data-aos="fade-left" data-aos-delay="500">read more about</Link>
           </div>
         </Row>
       </Container>

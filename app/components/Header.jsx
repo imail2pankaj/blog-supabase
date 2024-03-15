@@ -8,6 +8,7 @@ import { Container } from 'react-bootstrap'
 const Header = () => {
 
   const [navClass, setNavClass] = useState("");
+  const [isMobileMenu, setIsMobileMenu] = useState(false);
 
   useEffect(() => {
     const handleScroll = () => {
@@ -28,17 +29,21 @@ const Header = () => {
     };
   }, [navClass]);
 
+  const handleMobileMenu = () => {
+    setIsMobileMenu(prev => !prev)
+  }
+
   return (
     <div className={`naviagtion fixed-top transition ${navClass}`}>
       <Container>
         <nav className="navbar navbar-expand-lg navbar-dark p-0">
           <Link className="navbar-brand p-0" href="/"><Image height={43} width={148} src="/logo.png" alt="Agico" /></Link>
-          <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation" aria-controls="navigation"
+          <button onClick={handleMobileMenu} className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation" aria-controls="navigation"
             aria-expanded="false" aria-label="Toggle navigation">
             <span className="navbar-toggler-icon"></span>
           </button>
 
-          <div className="collapse navbar-collapse text-center" id="navigation">
+          <div className={`collapse navbar-collapse text-center ${isMobileMenu ? 'show' : ""}`} id="navigation">
             <ul className="navbar-nav mx-auto">
               {headerLinks.map(link => (
                 <li className="nav-item" key={link.link}>
