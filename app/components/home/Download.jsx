@@ -15,7 +15,7 @@ const Download = () => {
               <p className="text-white mb-4" data-aos="fade-up" data-aos-delay="200">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam quis nostrud exercitation.</p>
               <ul className="list-inline">
                 <li className="list-inline-item mb-3 mb-lg-0">
-                  <a className="btn btn-white" href="#" data-aos="zoom-in" data-aos-delay="400"><Image height={30} width={30} src="/images/001-google-play.png" className="img-fluid mr-2" alt="Google Play" />Google Play</a>
+                  <a className="btn btn-white" href="#" data-aos="zoom-in" data-aos-delay="400"><Image height={30} width={30} src="/images/001-google-play.png" className="img-fluid mr-2" alt="Download app from Google Play" />Google Play</a>
                 </li>
                 <li className="list-inline-item">
                   <a className="btn btn-outline-white" href="#" data-aos="zoom-in" data-aos-delay="500">

@@ -1,4 +1,5 @@
 import Image from 'next/image'
+import Link from 'next/link'
 import React from 'react'
 import { Container, Row } from 'react-bootstrap'
 
@@ -14,7 +15,7 @@ const AboutTwo = () => {
               eiusmod tempor
               incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam quis nostrud
               exercitation ullamco laboris nisi aliquip commodo consequat. duis aute.</p>
-            <a href="about.html" className="btn btn-outline-primary" data-aos="fade-right" data-aos-delay="500">read more</a>
+            <Link href="/about" className="btn btn-outline-primary" data-aos="fade-right" data-aos-delay="500">read more about</Link>
           </div>
           <div className="col-lg-6 col-md-5 text-center text-md-left order-1 order-md-2 mb-4 mb-md-0">
             <Image height={439} width={540} src="/images/about/about-2.png" className="img-fluid w-100" alt="about-2" data-aos="fade-left" />

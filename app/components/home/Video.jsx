@@ -17,7 +17,7 @@ const Video = () => {
       <Container className="container">
         <div className="row align-items-center">
           <div className="col-md-6 pr-lg-5 mb-md-0 mb-5">
-            <div className="mobile-height position-relative rounded-lg overlay-gradient" style={{ backgroundImage: "url(/images/check-video.png)" }} data-aos="zoom-in">
+            <div className="mobile-height position-relative rounded-lg overlay-gradient" style={{ backgroundImage: "url(/images/check-video.webp)" }} data-aos="zoom-in">
               <div className="pulse-container">
                 <div className="pulse-box">
                   <a className="venobox play-icon icon-center" data-autoplay="true" data-vbtype="video" href="https://www.youtube.com/watch?v=jrkvirglgaQ">

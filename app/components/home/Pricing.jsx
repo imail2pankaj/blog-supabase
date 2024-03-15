@@ -1,4 +1,5 @@
 import { pricing } from '@/utils/constants'
+import Link from 'next/link'
 import React from 'react'
 import { Container, Row } from 'react-bootstrap'
 
@@ -22,7 +23,7 @@ const Pricing = () => {
                   <ul className="list-unstyled my-4">
                     {price.services.map(service => <li className="my-3" key={service}>{service}</li>)}
                   </ul>
-                  <a href="#" className="btn btn-outline-primary">select plan</a>
+                  <Link href="/" className="btn btn-outline-primary">select plan</Link>
                 </div>
               </div>
             ))

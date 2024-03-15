@@ -1,5 +1,6 @@
 import { faFacebook, faGithub, faTwitter, faYoutube } from '@fortawesome/free-brands-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
 import { Container, Row } from 'react-bootstrap'
@@ -11,7 +12,7 @@ const Footer = () => {
         <Container>
           <div className="row justify-content-between">
             <div className="col-md-5 mb-4 mb-md-0">
-              <img src="/logo.png" className="mb-4" alt="agico" />
+              <Image height={43} width={148} src="/logo.png" className="mb-4" alt="agico logo" />
               <p className="text-light mb-4">Lorem ipsum dolor amet consectetur adipisicing elit sed eiusm tempor incididunt ut
                 labore dolore magna aliqua enim ad minim veniam quis nostrud exercitation ullamaboris nisi ut aliquip.exea
                 commodo consequat. Duis aute irure dolor in reprehenderit.</p>

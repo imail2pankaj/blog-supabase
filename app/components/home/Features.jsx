@@ -16,11 +16,11 @@ const Features = () => {
           {homeFeatures.map(feature => (
             <Col lg={4} sm={6} className="mb-4" data-aos="fade-up" key={feature.src}>
               <div className="text-center position-relative px-4 py-5 rounded-lg shadow card-active">
-                <Image height={feature.height} width={feature.width} src={feature.src} className="img-fluid" alt="feature-image" />
+                <Image height={feature.height} width={feature.width} src={feature.src} className="img-fluid" alt={`Images for the - ${feature.title}`} />
                 <h5 className="pt-5 pb-3 text-capitalize card-title">{feature.title}</h5>
                 <p className="mb-4">Lorem ipsum dolor sit amet consectetur elit sed do eiusmod tempor incididunt labore dolore
                   magna.</p>
-                <Link className="btn btn-outline-primary" href="/">read more</Link>
+                <Link className="btn btn-outline-primary" href="/">read more - {feature.title}</Link>
               </div>
             </Col>
           ))}
